@@ -1,10 +1,8 @@
-a.nav-link  {
-  /* font-family: "Raleway"; */
-}
-#menu {
-  border: 1px solid grey;
+a.navbar-brand  {
+  font-size: 40px;
 }
 #nav-color a {
   font-family: "Raleway";
   color: black;
+  z-index: 100;
 }
