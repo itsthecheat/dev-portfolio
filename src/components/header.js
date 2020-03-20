@@ -21,7 +21,7 @@ toggleButton = () => {
     return (
       <div>
 
-        <Navbar collapseOnSelect id="nav-color" expand="lg" variant="">
+        <Navbar id="nav-color" expand="lg" variant="">
           <Navbar.Brand as={Link} to="/">Leslie Behum</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <HamburgerElastic

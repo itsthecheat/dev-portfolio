@@ -21,7 +21,7 @@
 svg {
   z-index: 0;
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 path {
   fill: rgba(135, 206, 235, .5);
