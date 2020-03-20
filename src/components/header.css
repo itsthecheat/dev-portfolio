@@ -6,3 +6,11 @@ a.navbar-brand  {
   color: black;
   z-index: 100;
 }
+button {
+  z-index: 100;
+}
+@media all and (max-width: 480px) {
+  a.navbar-brand {
+    font-size: 25px;
+  }
+}

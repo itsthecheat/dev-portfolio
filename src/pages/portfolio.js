@@ -8,7 +8,7 @@ export default () => (
 
 <Container>
     <Row>
-      <Col>
+      <Col lg={8}>
       portfolio
       </Col>
     </Row>

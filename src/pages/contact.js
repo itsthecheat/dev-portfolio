@@ -8,8 +8,8 @@ export default () => (
 
 <Container>
     <Row>
-      <Col>
-        contact     
+      <Col lg={8}>
+        contact
       </Col>
     </Row>
 </Container>

@@ -7,7 +7,7 @@ export default () => (
 
 <Container>
     <Row>
-      <Col>
+      <Col lg={8}>
         hello world
       </Col>
     </Row>

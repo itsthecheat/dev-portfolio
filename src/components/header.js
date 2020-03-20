@@ -21,20 +21,20 @@ toggleButton = () => {
     return (
       <div>
 
-        <Navbar id="nav-color" expand="lg" variant="">
-          <Link className="navbar-brand" to="/">Leslie Behum</Link>
-            <Navbar.Toggle>
+        <Navbar collapseOnSelect id="nav-color" expand="lg" variant="">
+          <Navbar.Brand as={Link} to="/">Leslie Behum</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <HamburgerElastic
-                 buttonWidth={30} 
+                 buttonWidth={30}
                  isActive={this.state.isActive} toggleButton={this.toggleButton} buttonColor="" barColor="black" />
             </Navbar.Toggle>
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
-                  <Link className="nav-link" to="/about/">Who I Am</Link>
-                  <Link className="nav-link" to="/portfolio/">What I've Made</Link>
-                  <Link className="nav-link" to="/contact/">Say Hello</Link>
-                </Nav>
-            </Navbar.Collapse>
+              <Navbar.Collapse id="responsive-navbar-nav">
+                  <Nav className="ml-auto">
+                    <Nav.Link as={Link} to="/about/">Who I Am</Nav.Link>
+                    <Nav.Link as={Link} to="/portfolio/">What I've Made</Nav.Link>
+                    <Nav.Link as={Link} to="/contact/">Say Hello</Nav.Link>
+                  </Nav>
+              </Navbar.Collapse>
         </Navbar>
 
       </div>

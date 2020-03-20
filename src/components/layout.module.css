@@ -1,7 +1,5 @@
-
 .container {
   margin: 3rem auto;
-  max-width: 1000px;
 }
 .sun {
   top:0;
@@ -26,5 +24,12 @@ svg {
   width: 100%;
 }
 path {
-  fill: skyblue;
+  fill: rgba(135, 206, 235, .5);
+}
+
+@media all and (max-width: 480px) {
+  .sun {
+  height: 150px;
+  width: 150px;
+  }
 }
