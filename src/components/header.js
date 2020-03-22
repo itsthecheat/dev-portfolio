@@ -21,7 +21,7 @@ toggleButton = () => {
     return (
       <div>
 
-        <Navbar id="nav-color" expand="lg" variant="">
+        <Navbar collapseOnSelect id="nav-color" expand="lg" variant="">
           <Navbar.Brand as={Link} to="/">Leslie Behum</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <HamburgerElastic
@@ -30,9 +30,10 @@ toggleButton = () => {
             </Navbar.Toggle>
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="ml-auto">
-                    <Nav.Link as={Link} to="/about/">Who I Am</Nav.Link>
-                    <Nav.Link as={Link} to="/portfolio/">What I've Made</Nav.Link>
-                    <Nav.Link as={Link} to="/contact/">Say Hello</Nav.Link>
+
+                    <Nav.Link onSelect={this.toggleButton} eventKey="1" as={Link} to="/about/">Who I Am</Nav.Link>
+                    <Nav.Link onSelect={this.toggleButton} eventKey="2" as={Link} to="/portfolio/">What I've Made</Nav.Link>
+                    <Nav.Link onSelect={this.toggleButton}  eventKey="3" as={Link} to="/contact/">Say Hello</Nav.Link>
                   </Nav>
               </Navbar.Collapse>
         </Navbar>

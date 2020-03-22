@@ -12,10 +12,11 @@ export default ({ children }) => (
     <Header></Header>
       <div className={layoutStyles.container}>{children}</div>
 
-          <div className={layoutStyles.water}>
-          <svg viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M385.44,-25.37 C474.60,69.37 395.03,16.08 338.03,211.47 L500.00,150.00 L500.00,0.00 Z"></path></svg>
+        <div className={layoutStyles.water}>
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M385.44,-25.37 C474.60,69.37 395.03,16.08 338.03,211.47 L500.00,150.00 L500.00,0.00 Z"></path>
+          </svg>   
         </div>
-          
+
   </Container>
 
 )

@@ -14,17 +14,20 @@
   background: radial-gradient(circle, rgba(255,245,204,1) 31%, rgba(233,233,148,0) 100%);
 }
 .water {
-  position: absolute;
   top: 0;
+  right: 0;
+  position: absolute;
   height: 100%;
+  width: 100%;
+
 }
 svg {
-  z-index: 0;
+  position: relative;
   height: 100%;
-  width: 100vw;
+  width: 100%;
 }
 path {
-  fill: rgba(135, 206, 235, .5);
+  fill: rgba(135, 206, 235, .7);
 }
 
 @media all and (max-width: 480px) {
