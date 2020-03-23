@@ -1,9 +1,9 @@
 import React from "react"
 
 import {Navbar, Nav} from "react-bootstrap/"
-import 'typeface-roboto';
 import { Link } from "gatsby"
 import  "./header.css"
+import "typeface-raleway"
 import { HamburgerElastic } from 'react-animated-burgers'
 
 class Header extends React.Component {

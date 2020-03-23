@@ -10,7 +10,7 @@ export default () => (
     <Container>
       <Row>
 
-        <Col lg={8}>
+        <Col lg={8} className="text-paragraph">
           Hard-working professional with 3+ years of experience and a proven knowledge of web page content, web platform development, and programming. Aiming to leverage my skills to successfully fill a web developer role.
         </Col>
 

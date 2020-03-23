@@ -1,8 +1,8 @@
 a.navbar-brand  {
-  font-size: 40px;
+  /* font-size: 40px; */
 }
 #nav-color a {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   color: black;
   z-index: 100;
 }
@@ -11,6 +11,6 @@ button {
 }
 @media all and (max-width: 480px) {
   a.navbar-brand {
-    font-size: 25px;
+    /* font-size: 25px; */
   }
 }
