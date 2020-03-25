@@ -4,7 +4,8 @@ import {Navbar, Nav} from "react-bootstrap/"
 import { Link } from "gatsby"
 import  "./header.css"
 import "typeface-raleway"
-import { HamburgerElastic } from 'react-animated-burgers'
+import "typeface-dm-serif-display"
+import { HamburgerElastic } from "react-animated-burgers"
 
 class Header extends React.Component {
   state = {

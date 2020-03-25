@@ -1,6 +1,7 @@
 html, body {
   color: black;
-  background-color: rgb(255, 190, 150);
+  /* background-color: rgb(255, 190, 150); */
+  background-color: white;
 }
 .row {
   justify-content: center;
