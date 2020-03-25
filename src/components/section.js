@@ -7,7 +7,9 @@ export default ({children}) => (
     <Row>
 
       <Col lg={8} className="text-paragraph">
+
         {children}
+        
       </Col>
 
     </Row>

@@ -13,9 +13,19 @@ module.exports = {
      },
    },
    `gatsby-plugin-styled-components`,
+   `gatsby-transformer-sharp`,
+   `gatsby-plugin-sharp`,
+   `gatsby-transformer-remark`,
+   {
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `src`,
+    path: `${__dirname}/src/`,
+  },
+},
  ],
  siteMetadata: {
-  title: `Leslie Beheum`,
+  title: `Leslie Behum`,
   siteUrl: `http://www.lesliethe.dev`,
   description: `Web Developer based in Brooklyn, NY`,
 },
