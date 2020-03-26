@@ -1,0 +1,24 @@
+- title: Save My Date
+  slug: '/save-my-date/'
+  img: 'images/commons-01.png'
+  description: >
+    Save My Date was the cumulative project from my time at General Assembly's Web Development Immersive. The idea came about as an idea to get out of a bad romantic date an individual my be on.
+
+    You can schedule a message or phone call to happen at some point during the date. It can simply be ignored if things are going well. Otherwise, it can be used as an excuse to leave for whatever reason the message gives. It was built on Node with Express, and uses the Twilio API. Deployed using Heroku.
+  links:
+    - title: Save My Date
+      icon: Heroku
+      url: https://savemydate.herokuapp.com
+    - title: Save My Date Repo
+      icon: GitHub
+      url: https://github.com/itsthecheat/final
+  techstack:
+    - HTML
+    - CSS
+    - JavaScript
+    - Express.js
+    - Twilio
+    - Heroku
+
+- title: Rottenberg Therapy
+  slug: '/rottenberg-therapy/'

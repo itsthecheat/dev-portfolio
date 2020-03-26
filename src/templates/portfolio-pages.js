@@ -4,16 +4,14 @@ import { graphql } from "gatsby"
 import {Row, Col, Container} from "react-bootstrap"
 
 export default ({data}) => {
-  const post = data.markdownRemark
+  const project = data.projectsYaml
   return (
   <Container>
 
     <Row>
-
       <Col lg={8} className="text-paragraph">
-          <h1>{post.frontmatter.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
+      <h1>{project.title}</h1>
+        {project.description}
       </Col>
 
     </Row>
@@ -24,11 +22,9 @@ export default ({data}) => {
 
 export const query = graphql`
   query($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-      }
+    projectsYaml(slug: { eq: $slug } ) {
+      title
+      description
     }
   }
 `
