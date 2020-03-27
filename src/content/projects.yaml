@@ -1,6 +1,6 @@
 - title: Save My Date
   slug: '/save-my-date/'
-  img: 'images/commons-01.png'
+  img: '../static/images/smd.png'
   description: >
     Save My Date was the cumulative project from my time at General Assembly's Web Development Immersive. The idea came about as an idea to get out of a bad romantic date an individual my be on.
 

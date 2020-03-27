@@ -2,7 +2,7 @@ import React from "react"
 
 import {Navbar, Nav} from "react-bootstrap/"
 import { Link } from "gatsby"
-import  "./header.css"
+import  "./Header.css"
 import "typeface-raleway"
 import "typeface-dm-serif-display"
 import { HamburgerElastic } from "react-animated-burgers"

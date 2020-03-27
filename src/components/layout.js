@@ -1,7 +1,7 @@
 import React from "react"
 
 import layoutStyles from "./layout.module.css"
-import Header from "../components/header"
+import Header from "../components/Header"
 import Container from "react-bootstrap/Container"
 
 
