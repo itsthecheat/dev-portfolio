@@ -10,7 +10,7 @@
       icon: Heroku
       url: https://savemydate.herokuapp.com
     - title: Save My Date Repo
-      icon: GitHub
+      icon: github
       url: https://github.com/itsthecheat/final
   techstack:
     - HTML
@@ -22,3 +22,19 @@
 
 - title: Rottenberg Therapy
   slug: '/rottenberg-therapy/'
+  img: '../static/images/sary.png'
+  description: >
+    NYC area therapy group website designed and developed by me. Built on Jekyll.
+  links:
+    - title: Rottenberg Therapy
+      icon: web
+      url: www.rottenbergtherapy.com
+    - title: Rottenberg Therapy Repo
+      icon: github
+      url: https://github.com/itsthecheat/sary
+  techstack:
+    - HTML
+    - CSS
+    - JavaScript
+    - Jekyll
+    - Material Design
