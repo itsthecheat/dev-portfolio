@@ -1,6 +1,5 @@
 html, body {
   color: black;
-  /* background-color: rgb(255, 190, 150); */
   background-color: white;
 }
 .row {
@@ -9,6 +8,14 @@ html, body {
 }
 .text-paragraph {
   z-index: 200;
+  font-family: "Pontano Sans", sans-serif;
+}
+a {
+  color: black;
+  transition: all 0.5s ease;
+}
+a:hover {
+  color: rgb(121, 153, 166);
 }
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480

@@ -1,32 +1,41 @@
 import React from "react"
 
+import styles from "./portfolio-pages.module.css"
 import { graphql } from "gatsby"
-import {Row, Col, Container} from "react-bootstrap"
+import Section from "../components/Section"
 import Img from "gatsby-image"
+import { FaGithub,FaLink } from "react-icons/fa"
 
 export default ({data}) => {
   const project = data.projectsYaml
   return (
-  <Container>
 
-    <Row>
-      <Col lg={8} className="text-paragraph">
-      <h1>{project.title}</h1>
+    <Section>
+      <h3>{project.title}
+          <span>
+            <a href={project.links.web}><FaLink  id={styles.icon}/></a>
+            <a href={project.links.github}><FaGithub  id={styles.icon}/></a>
+          </span>
+      </h3>
         <p>{project.description}</p>
-        <Img fluid = {project.img.childImageSharp.fluid } />
-      </Col>
+        {project.img.map(image =>
+            <p><Img fluid = {image.childImageSharp.fluid} /></p>
+        )}
+    </Section>
 
-    </Row>
-  </Container>
   )
-
 }
+
 
 export const query = graphql`
   query($slug: String!) {
     projectsYaml(slug: { eq: $slug } ) {
       title
       description
+      links {
+        github
+        web
+      }
       img {
         childImageSharp {
           fluid(maxWidth: 1000) {

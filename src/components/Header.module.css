@@ -1,19 +1,18 @@
-nav .navbar-brand  {
+#brand  {
   font-size: 40px;
 }
-.navbar-nav .nav-link {
-  font-size: 20px;
-}
-#nav-color a {
+#navColor {
   font-family: "DM Serif Display";
   color: black;
   z-index: 100;
+  font-size: 20px;
+  z-index:5000;
 }
 button {
   z-index: 100;
 }
 @media all and (max-width: 480px) {
-  a.navbar-brand {
+#brand {
     font-size: 25px;
   }
 }

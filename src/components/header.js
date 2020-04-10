@@ -2,7 +2,7 @@ import React from "react"
 
 import {Navbar, Nav} from "react-bootstrap/"
 import { Link } from "gatsby"
-import  "./Header.css"
+import styles from "./Header.module.css"
 import "typeface-raleway"
 import "typeface-dm-serif-display"
 import { HamburgerElastic } from "react-animated-burgers"
@@ -22,8 +22,8 @@ toggleButton = () => {
     return (
       <div>
 
-        <Navbar collapseOnSelect id="nav-color" expand="lg" variant="">
-          <Navbar.Brand as={Link} to="/">Leslie Behum</Navbar.Brand>
+        <Navbar fixed="top" collapseOnSelect id={styles.navColor} expand="lg" variant="">
+          <Navbar.Brand id={styles.brand} as={Link} to="/">Leslie Behum</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <HamburgerElastic
                  buttonWidth={30}

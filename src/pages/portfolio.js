@@ -1,15 +1,15 @@
 import React from "react";
 
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import Masonry from "react-masonry-component"
+import {Container, Row, Col} from "react-bootstrap"
+import Gallery from "../components/Gallery"
 
 export default () => (
 
 <Container>
     <Row>
       <Col lg={8}>
-      portfolio
+        <Gallery />
       </Col>
     </Row>
 </Container>

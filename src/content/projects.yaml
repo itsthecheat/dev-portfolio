@@ -1,17 +1,16 @@
 - title: Save My Date
   slug: '/save-my-date/'
-  img: '../static/images/smd.png'
+  img:
+    - '../images/smd.png'
+    - '../images/smd3.png'
+    - '../images/smd-login.png'
   description: >
     Save My Date was the cumulative project from my time at General Assembly's Web Development Immersive. The idea came about as an idea to get out of a bad romantic date an individual my be on.
 
     You can schedule a message or phone call to happen at some point during the date. It can simply be ignored if things are going well. Otherwise, it can be used as an excuse to leave for whatever reason the message gives. It was built on Node with Express, and uses the Twilio API. Deployed using Heroku.
   links:
-    - title: Save My Date
-      icon: Heroku
-      url: https://savemydate.herokuapp.com
-    - title: Save My Date Repo
-      icon: github
-      url: https://github.com/itsthecheat/final
+    web: https://savemydate.herokuapp.com
+    github: https://github.com/itsthecheat/final
   techstack:
     - HTML
     - CSS
@@ -22,19 +21,66 @@
 
 - title: Rottenberg Therapy
   slug: '/rottenberg-therapy/'
-  img: '../static/images/sary.png'
+  img:
+    - '../images/sary.png'
   description: >
-    NYC area therapy group website designed and developed by me. Built on Jekyll.
+    NYC area therapy group website designed and developed by me. Built on Jekyll using elements of Material Design.
   links:
-    - title: Rottenberg Therapy
-      icon: web
-      url: www.rottenbergtherapy.com
-    - title: Rottenberg Therapy Repo
-      icon: github
-      url: https://github.com/itsthecheat/sary
+    web: http://www.rottenbergtherapy.com
+    github: https://github.com/itsthecheat/sary
   techstack:
     - HTML
     - CSS
     - JavaScript
     - Jekyll
     - Material Design
+
+- title: Mikella Millen
+  slug: '/mikella-millen/'
+  img:
+    - '../images/mikella-1.png'
+    - '../images/mikella-2.png'
+    - '../images/mikella-3.png'
+  description: >
+    Buisness website for Mikella Millen. Designed and developed by me.
+  links:
+    web: http://www.mikellamillen.com
+    github: https://github.com/itsthecheat/mikella
+  techstack:
+    - HTML
+    - CSS
+    - JavaScript
+
+- title: Cat Chase
+  slug: '/cat-chase/'
+  img:
+    - '../images/game-start.png'
+    - '../images/game-action.png'
+    - '../images/game-end.png'
+  description: >
+    Game where the goal is to catch all of the cats on the screen. The dog follows the cursors movement, everytime a cat is "caught" the score board is adjusted.
+  links:
+    web: http://www.github.io
+    github:
+  techstack:
+    - HTML
+    - CSS
+    - JavaScript
+
+- title: Give Me a Break
+  slug: 'give-me-a-break'
+  img:
+    - '../images/break-news.png'
+    - '../images/break-art.png'
+    - '../images/break-account.png'
+  description: >
+    Web application bringing in news headlines and art from different sources.
+  links:
+    web: http://www.heroku.com
+    github: http://www.github.components
+  techstack:
+    - HTML
+    - CSS
+    - JavaScript
+    - Node.js
+    - Express

@@ -1,0 +1,13 @@
+.headerPadding {
+  padding-top: 35px;
+}
+#icon {
+  color: black;
+  height: 30px;
+  width: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+#icon:hover {
+  color: grey;
+}

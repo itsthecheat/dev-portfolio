@@ -1,35 +1,61 @@
 .container {
   margin: 3rem auto;
+  padding-top: 50px;
 }
 .sun {
+  -webkit-animation: sunFade 5s infinite;
+  -moz-animation: sunFade 5s infinite;
+  -o-animation: sunFade 5s infinite;
+  animation: sunFade 5s infinite;
   top:0;
   left: 0;
   height: 300px;
   width: 300px;
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
   margin-top: 25px;
   margin-left: 25px;
   background: lightyellow;
-  background: radial-gradient(circle, rgba(255,245,204,1) 31%, rgba(233,233,148,0) 100%);
+  background: radial-gradient(circle, rgba(255,245,204,1) 40%, rgba(233,233,148,0) 100%);
+}
+@keyframes sunFade {
+  0% { opacity:1;}
+  50% {opacity:.6;}
+  100% {opacity: 1;}
+}
+@-moz-keyframes sunFade {
+  0% { opacity:1;}
+  50% {opacity:.6;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes sunFade {
+  0% { opacity:1;}
+  50% {opacity:.6;}
+  100% {opacity: 1;}
+}
+@-o-keyframes sunFade {
+  0% { opacity:1;}
+  50% {opacity:.6;}
+  100% {opacity: 1;}
+}
+@-ms-keyframes sunFade {
+  0% { opacity:1;}
+  50% {opacity:.6;}
+  100% {opacity: 1;}
 }
 .water {
-  top: 0;
-  right: 0;
   position: absolute;
-  height: 100%;
+  left:0;
+  top:0;
   width: 100%;
-
-}
-svg {
-  position: relative;
   height: 100%;
-  width: 100%;
 }
-path {
-  fill: rgba(135, 206, 235, .7);
+div .water svg {
+  position: fixed;
+  width:100%;
+  height: 100vh;
+  padding: 0;
 }
-
 @media all and (max-width: 480px) {
   .sun {
   height: 200px;
