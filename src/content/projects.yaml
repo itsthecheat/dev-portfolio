@@ -1,5 +1,6 @@
 - title: Save My Date
   slug: '/save-my-date/'
+  thumbnail: '../images/smd.png'
   img:
     - '../images/smd.png'
     - '../images/smd3.png'
@@ -21,6 +22,7 @@
 
 - title: Rottenberg Therapy
   slug: '/rottenberg-therapy/'
+  thumbnail: '../images/sary.png'
   img:
     - '../images/sary.png'
   description: >
@@ -37,6 +39,7 @@
 
 - title: Mikella Millen
   slug: '/mikella-millen/'
+  thumbnail: '../images/mikella-1.png'
   img:
     - '../images/mikella-1.png'
     - '../images/mikella-2.png'
@@ -53,6 +56,7 @@
 
 - title: Cat Chase
   slug: '/cat-chase/'
+  thumbnail: '../images/game-action.png'
   img:
     - '../images/game-start.png'
     - '../images/game-action.png'
@@ -69,6 +73,7 @@
 
 - title: Give Me a Break
   slug: 'give-me-a-break'
+  thumbnail: '../images/break-art.png'
   img:
     - '../images/break-news.png'
     - '../images/break-art.png'

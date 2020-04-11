@@ -1,0 +1,11 @@
+.galleryWrapper {
+  border: 1px solid black;
+  height: 100%;
+  padding: 3px;
+}
+.showcaseItem {
+    box-sizing: border-box;
+    width: (100% / 2);
+    float: left;
+    padding-left: 15px;
+}
