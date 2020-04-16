@@ -1,11 +1,7 @@
-.galleryWrapper {
-  border: 1px solid black;
-  height: 100%;
-  padding: 3px;
+.imageItem {
+  z-index: 2500;
 }
-.showcaseItem {
-    box-sizing: border-box;
-    width: (100% / 2);
-    float: left;
-    padding-left: 15px;
+.shadow {
+  margin: 20px;
+  filter: drop-shadow(0 0 0.7rem grey);
 }

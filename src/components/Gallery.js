@@ -1,9 +1,10 @@
 import React from "react"
 
 import Masonry from "react-masonry-component"
-import {useStaticQuery, graphql} from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import styles from "./Gallery.module.css"
+import { Col } from "react-bootstrap"
 
 const Gallery = () => {
   const data = useStaticQuery(graphql`
@@ -11,7 +12,9 @@ const Gallery = () => {
       allProjectsYaml {
         edges {
           node {
+            title
             id
+            slug
             thumbnail {
               childImageSharp {
                 fluid {
@@ -27,14 +30,16 @@ const Gallery = () => {
 
   return (
 
-<Masonry className={styles.galleryWrapper}>
-    {data.allProjectsYaml.edges.map( element => (
-      <div key={element.node.id} >
-        <Img         fluid={element.node.thumbnail.childImageSharp.fluid} />
-      </div>
+<Masonry className="text-paragraph">
+    {data.allProjectsYaml.edges.map( ({node: image}) => (
+      <Col lg={6} md={4} sm={12} key={image.id} className={styles.imageItem}>
+          <Link to={image.slug}>
+          <Img className={styles.shadow}         fluid={image.thumbnail.childImageSharp.fluid} />
+          </Link>
+      </Col>
       ))}
-
 </Masonry>
+
   )
 }
 

@@ -1,25 +1,3 @@
-- title: Save My Date
-  slug: '/save-my-date/'
-  thumbnail: '../images/smd.png'
-  img:
-    - '../images/smd.png'
-    - '../images/smd3.png'
-    - '../images/smd-login.png'
-  description: >
-    Save My Date was the cumulative project from my time at General Assembly's Web Development Immersive. The idea came about as an idea to get out of a bad romantic date an individual my be on.
-
-    You can schedule a message or phone call to happen at some point during the date. It can simply be ignored if things are going well. Otherwise, it can be used as an excuse to leave for whatever reason the message gives. It was built on Node with Express, and uses the Twilio API. Deployed using Heroku.
-  links:
-    web: https://savemydate.herokuapp.com
-    github: https://github.com/itsthecheat/final
-  techstack:
-    - HTML
-    - CSS
-    - JavaScript
-    - Express.js
-    - Twilio
-    - Heroku
-
 - title: Rottenberg Therapy
   slug: '/rottenberg-therapy/'
   thumbnail: '../images/sary.png'
@@ -54,9 +32,31 @@
     - CSS
     - JavaScript
 
+- title: Save My Date
+  slug: '/save-my-date/'
+  thumbnail: '../images/smd.png'
+  img:
+    - '../images/smd.png'
+    - '../images/smd3.png'
+    - '../images/smd-login.png'
+  description: >
+    Save My Date was the cumulative project from my time at General Assembly's Web Development Immersive. The idea came about as an idea to get out of a bad romantic date an individual my be on.
+
+    You can schedule a message or phone call to happen at some point during the date. It can simply be ignored if things are going well. Otherwise, it can be used as an excuse to leave for whatever reason the message gives. It was built on Node with Express, and uses the Twilio API. Deployed using Heroku.
+  links:
+    web: https://savemydate.herokuapp.com
+    github: https://github.com/itsthecheat/final
+  techstack:
+    - HTML
+    - CSS
+    - JavaScript
+    - Express.js
+    - Twilio
+    - Heroku
+
 - title: Cat Chase
   slug: '/cat-chase/'
-  thumbnail: '../images/game-action.png'
+  thumbnail: '../images/game-end.png'
   img:
     - '../images/game-start.png'
     - '../images/game-action.png'
@@ -71,9 +71,9 @@
     - CSS
     - JavaScript
 
-- title: Give Me a Break
-  slug: 'give-me-a-break'
-  thumbnail: '../images/break-art.png'
+- title: Take Fifteen
+  slug: 'take-fifteen'
+  thumbnail: '../images/break-news.png'
   img:
     - '../images/break-news.png'
     - '../images/break-art.png'
@@ -89,3 +89,22 @@
     - JavaScript
     - Node.js
     - Express
+
+- title: Retrospeck
+  slug: 'retrospeck'
+  thumbnail: '../images/retro.png'
+  img:
+    - '../images/retro.png'
+    - '../images/retro_slide2.png'
+    - '../images/retro_slide.png'
+  description: >
+    A peer-review of peer-reviews created by Mike Rivera, Leslie Behum, James Lee and Nick Costanzo. Retrospeck is a platform that enables it's users to commentate on content from web media. We've implimented Yelp, Twitter, and News API as media input for the inquiries.
+  links:
+    web: http://www.heroku.com
+    github: https://github.com/itsthecheat/Retrospector
+  techstack:
+    - HTML
+    - CSS
+    - Ruby on Rails
+    -
+    -

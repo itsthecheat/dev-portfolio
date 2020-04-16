@@ -7,10 +7,11 @@ html, body {
   flex: auto;
 }
 .text-paragraph {
+  padding-top: 100px;
   z-index: 200;
   font-family: "Pontano Sans", sans-serif;
 }
-a {
+a,#navColor {
   color: black;
   transition: all 0.5s ease;
 }

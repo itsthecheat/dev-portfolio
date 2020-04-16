@@ -14,10 +14,10 @@ class Footer extends React.Component {
 render() {
   return(
 
-      <footer className={styles.footer}>
-          &copy; Leslie Behum {this.state.date}
-      </footer>
-
+        <footer className={styles.footer}>
+            &copy; Leslie Behum {this.state.date}
+        </footer>
+    
 
   )
 }

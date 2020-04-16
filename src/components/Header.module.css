@@ -1,5 +1,7 @@
 #brand  {
   font-size: 40px;
+  /* border-bottom: 5px solid black; */
+
 }
 #navColor {
   font-family: "DM Serif Display";
@@ -15,4 +17,14 @@ button {
 #brand {
     font-size: 25px;
   }
+}
+#icon {
+  color: black;
+  height: 27px;
+  width: 27px;
+  margin-top: 8px;
+}
+a.nav-link {
+  padding-right: 20px;
+  
 }

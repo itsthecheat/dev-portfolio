@@ -6,6 +6,7 @@ import styles from "./Header.module.css"
 import "typeface-raleway"
 import "typeface-dm-serif-display"
 import { HamburgerElastic } from "react-animated-burgers"
+import { AiOutlineLinkedin, AiFillGithub, AiOutlineInstagram } from "react-icons/ai"
 
 class Header extends React.Component {
   state = {
@@ -31,10 +32,11 @@ toggleButton = () => {
             </Navbar.Toggle>
               <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="ml-auto">
-
-                    <Nav.Link onSelect={this.toggleButton} eventKey="1" as={Link} to="/about/">Who I Am</Nav.Link>
                     <Nav.Link onSelect={this.toggleButton} eventKey="2" as={Link} to="/portfolio/">What I've Made</Nav.Link>
                     <Nav.Link onSelect={this.toggleButton}  eventKey="3" as={Link} to="/contact/">Say Hello</Nav.Link>
+                    <AiOutlineLinkedin id={styles.icon}/>
+                    <AiFillGithub id={styles.icon}/>
+                    <AiOutlineInstagram id={styles.icon}/>
                   </Nav>
               </Navbar.Collapse>
         </Navbar>
