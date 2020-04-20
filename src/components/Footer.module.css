@@ -1,11 +1,26 @@
 .footer {
-  text-align: right;
   bottom: 0;
   position: fixed;
-  padding-right: 10px;
-  color: rgb(121, 153, 166);
+  padding: 10px;
+  color: black;
   width: 100%;
   z-index:5000;
-  font-size: 12px;
-  font-family: "DM Serif Display";
+  font-size: 14px;
+  font-family: "Pontano Sans", sans-serif;
+}
+.logo {
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  width: 20px;
+  height: 20px;
+  /* filter: invert(40%) sepia(8%) saturate(427%) hue-rotate(225deg) brightness(90%) contrast(96%); */
+}
+.coffee {
+  margin-left: 3px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  width: 20px;
+  height: 20px;
+  /* filter: invert(40%) sepia(8%) saturate(427%) hue-rotate(225deg) brightness(90%) contrast(96%); */
 }

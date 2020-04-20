@@ -4,6 +4,7 @@ import layoutStyles from "./layout.module.css"
 import Header from "../components/Header"
 import Container from "react-bootstrap/Container"
 import "typeface-pontano-sans"
+import "typeface-dm-serif-display"
 
 
 export default ({ children }) => (

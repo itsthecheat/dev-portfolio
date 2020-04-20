@@ -1,21 +1,42 @@
-#brand  {
-  font-size: 40px;
-  /* border-bottom: 5px solid black; */
-
-}
-#navColor {
+:global nav {
   font-family: "DM Serif Display";
   color: black;
-  z-index: 100;
+  z-index: 1;
   font-size: 20px;
-  z-index:5000;
+}
+a#brand  {
+  display: inline-block;
+  position: relative;
+  font-size: 40px;
+}
+a#brand:::after {
+  content: "";
+  position: absolute;
+  width: 17rem;
+  height: 45%;
+  top: 30px;
+  left: -5px;
+  z-index: -1;
+  color: black;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+a#brand:hover::after {
+  content: "";
+  position: absolute;
+  width: 17rem;
+  height: 45%;
+  top: 30px;
+  left: -5px;
+  background-color: pink;
+  z-index: -1;
 }
 button {
   z-index: 100;
 }
 @media all and (max-width: 480px) {
-#brand {
-    font-size: 25px;
+#brand{
+    font-size: 30px;
   }
 }
 #icon {
@@ -23,8 +44,31 @@ button {
   height: 27px;
   width: 27px;
   margin-top: 8px;
+  margin-right: 5px;
 }
-a.nav-link {
-  padding-right: 20px;
-  
+:global .nav-link {
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+}
+:global .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 20px;
+  left: 5px;
+  background-color: pink;
+  z-index: -1;
+}
+:global .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 20px;
+  left: 5px;
+  z-index: -1;
+  background-color: transparent;
+  transition: background-color 0.3s;
 }

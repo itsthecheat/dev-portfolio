@@ -1,0 +1,25 @@
+.heading {
+  position: relative;
+  display: block;
+  font-family: "DM Serif Display", sans-serif;
+  z-index: -1;
+}
+.heading::before {
+  content: "";
+  position: absolute;
+  width: 18rem;
+  height: 55%;
+  top: 20px;
+  left: -5px;
+  background: pink;
+  z-index: -1;
+  color: black;
+}
+@media all and (max-width: 480px) {
+  .heading {
+    font-size: 30px;
+  }
+  .heading::before {
+    width: 15rem;
+  }
+}

@@ -3,14 +3,14 @@
   padding-top: 50px;
 }
 .sun {
-  -webkit-animation: sunFade 5s infinite;
-  -moz-animation: sunFade 5s infinite;
-  -o-animation: sunFade 5s infinite;
-  animation: sunFade 5s infinite;
+  -webkit-animation: sunFade 4s infinite;
+  -moz-animation: sunFade 4s infinite;
+  -o-animation: sunFade 4s infinite;
+  animation: sunFade 4s infinite;
   top:0;
   left: 0;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   position: fixed;
   border-radius: 50%;
   margin-top: 25px;
@@ -20,27 +20,27 @@
 }
 @keyframes sunFade {
   0% { opacity:1;}
-  50% {opacity:.6;}
+  50% {opacity:.5;}
   100% {opacity: 1;}
 }
 @-moz-keyframes sunFade {
   0% { opacity:1;}
-  50% {opacity:.6;}
+  50% {opacity:.5;}
   100% {opacity: 1;}
 }
 @-webkit-keyframes sunFade {
   0% { opacity:1;}
-  50% {opacity:.6;}
+  50% {opacity:.5;}
   100% {opacity: 1;}
 }
 @-o-keyframes sunFade {
   0% { opacity:1;}
-  50% {opacity:.6;}
+  50% {opacity:.5;}
   100% {opacity: 1;}
 }
 @-ms-keyframes sunFade {
   0% { opacity:1;}
-  50% {opacity:.6;}
+  50% {opacity:.5;}
   100% {opacity: 1;}
 }
 .water {
@@ -58,7 +58,7 @@ div .water svg {
 }
 @media all and (max-width: 480px) {
   .sun {
-  height: 200px;
-  width: 200px;
+  height: 225px;
+  width: 225px;
   }
 }
