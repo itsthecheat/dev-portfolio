@@ -31,7 +31,7 @@ const Gallery = () => {
 
   return (
 
-<Masonry className="text-paragraph">
+<Masonry>
     {data.allProjectsYaml.edges.map( ({node: image}) => (
       <Col lg={6} md={4} sm={12} key={image.id} className={styles.imageItem}>
         <h3 className={styles.projectHeading}>{image.title}</h3>

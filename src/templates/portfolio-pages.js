@@ -11,15 +11,20 @@ export default ({data}) => {
   return (
 
     <Section>
-      <h3>{project.title}
+      <h3 className={styles.highlight}>{project.title}
           <span>
             <a href={project.links.web}><FaLink  id={styles.icon}/></a>
             <a href={project.links.github}><FaGithub  id={styles.icon}/></a>
           </span>
       </h3>
         <p>{project.description}</p>
+        <h3 className={styles.highlight}>Techstack</h3>
+        <ul className={styles.techstack}>
+        {project.techstack.map(tech =>
+          <li>{tech}</li>)}
+        </ul>
         {project.img.map(image =>
-            <p><Img fluid = {image.childImageSharp.fluid} /></p>
+            <p><Img className={styles.image} fluid = {image.childImageSharp.fluid} /></p>
         )}
     </Section>
 
@@ -31,6 +36,7 @@ export const query = graphql`
   query($slug: String!) {
     projectsYaml(slug: { eq: $slug } ) {
       title
+      techstack
       description
       links {
         github

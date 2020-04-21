@@ -72,3 +72,8 @@ button {
   background-color: transparent;
   transition: background-color 0.3s;
 }
+@media all and (max-width: 480px) {
+  a#brand {
+    font-size: 35px;
+  }
+}

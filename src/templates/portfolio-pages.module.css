@@ -1,5 +1,20 @@
-.headerPadding {
-  padding-top: 35px;
+.highlight {
+  display: inline-block;
+  position: relative;
+  font-family: "DM Serif Display";
+}
+.highlight::after {
+  content: "";
+  position: absolute;
+  width: 15rem;
+  height: 1.5rem;
+  top: 15px;
+  left: -5px;
+  background: pink;
+  z-index: -1;
+}
+.image {
+  filter: drop-shadow(0 0 0.7rem grey);
 }
 #icon {
   color: black;
@@ -7,7 +22,17 @@
   width: 30px;
   padding-right: 5px;
   padding-left: 5px;
+  transition: all 0.3s;
 }
 #icon:hover {
   color: grey;
+}
+.techstack {
+  list-style-type: none;
+  padding: 0;
+}
+@media all and (max-width: 480px) {
+  .highlight::after {
+    width: 20rem;
+  }
 }
