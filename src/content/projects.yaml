@@ -1,3 +1,20 @@
+- title: Ozark Ipsum
+  slug: '/ozark-ipsum/'
+  thumbnail: '../images/ozark.png'
+  img:
+    - '../images/ozark.png'
+  description: >
+    Lorem Ipsum generator using quotes from the Netflix series 'Ozark.'
+  links:
+    web: https://ozark-ipsum.lesliethe.dev
+    github: https://github.com/itsthecheat/ozark_ipsum
+  techstack:
+    - ReactJS
+    - CSS
+    - JavaScript
+    - Express
+    - Node
+
 - title: Rottenberg Therapy
   slug: '/rottenberg-therapy/'
   thumbnail: '../images/sary.png'

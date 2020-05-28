@@ -33,9 +33,9 @@ toggleButton = () => {
                     <Nav.Link onSelect={this.toggleButton} eventKey="2" as={Link} to="/portfolio/">What I've Made</Nav.Link>
                     <Nav.Link onSelect={this.toggleButton}  eventKey="3" as={Link} to="/contact/">Say Hello</Nav.Link>
                     <div id={styles.iconRow}>
-                    <AiOutlineLinkedin id={styles.icon}/>
-                    <AiFillGithub id={styles.icon}/>
-                    <AiOutlineInstagram id={styles.icon}/>
+                    <a href="https://www.linkedin.com/in/leslielaurenbehum"><AiOutlineLinkedin id={styles.icon}/></a>
+                      <a href="https://www.github.com/itsthecheat"><AiFillGithub id={styles.icon}/></a>
+                      <a href="https://www.instagram.com/leslielaurenb"><AiOutlineInstagram id={styles.icon}/></a>
                     </div>
                   </Nav>
               </Navbar.Collapse>
