@@ -9,7 +9,7 @@ a#brand  {
   position: relative;
   font-size: 40px;
 }
-a#brand:::after {
+#brand::after {
   content: "";
   position: absolute;
   width: 17rem;
@@ -21,7 +21,7 @@ a#brand:::after {
   background-color: transparent;
   transition: background-color 0.3s;
 }
-a#brand:hover::after {
+#brand:hover::after {
   content: "";
   position: absolute;
   width: 17rem;
