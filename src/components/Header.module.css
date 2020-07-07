@@ -4,32 +4,9 @@
   z-index: 1;
   font-size: 20px;
 }
-a#brand  {
+#brand  {
   display: inline-block;
   position: relative;
-  font-size: 40px;
-}
-#brand::after {
-  content: "";
-  position: absolute;
-  width: 17rem;
-  height: 45%;
-  top: 30px;
-  left: -5px;
-  z-index: -1;
-  color: black;
-  background-color: transparent;
-  transition: background-color 0.3s;
-}
-#brand:hover::after {
-  content: "";
-  position: absolute;
-  width: 17rem;
-  height: 45%;
-  top: 30px;
-  left: -5px;
-  background-color: pink;
-  z-index: -1;
 }
 button {
   z-index: 100;
@@ -38,13 +15,6 @@ button {
 #brand{
     font-size: 30px;
   }
-}
-#icon {
-  color: black;
-  height: 27px;
-  width: 27px;
-  margin-top: 8px;
-  margin-right: 5px;
 }
 :global .nav-link {
   margin-right: 10px;
@@ -72,8 +42,25 @@ button {
   background-color: transparent;
   transition: background-color 0.3s;
 }
-@media all and (max-width: 480px) {
-  a#brand {
-    font-size: 35px;
-  }
+/* #brand::after {
+  content: "";
+  position: absolute;
+  width: 17rem;
+  height: 45%;
+  top: 30px;
+  left: -5px;
+  z-index: -1;
+  color: black;
+  background-color: transparent;
+  transition: background-color 0.3s;
 }
+#brand:hover::after {
+  content: "";
+  position: absolute;
+  width: 17rem;
+  height: 45%;
+  top: 30px;
+  left: -5px;
+  background-color: pink;
+  z-index: -1;
+} */

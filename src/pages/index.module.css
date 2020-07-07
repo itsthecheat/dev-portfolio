@@ -1,3 +1,24 @@
+h1, h2 {
+  text-align: center;
+  font-family: "DM Serif Display", sans-serif;
+}
+.line {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 3px;
+  background-color: black;
+}
+#icon {
+  color: black;
+  height: 27px;
+  width: 27px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.iconRow {
+  text-align: center;
+}
 .heading {
   position: relative;
   display: block;
@@ -7,19 +28,18 @@
 .heading::before {
   content: "";
   position: absolute;
-  width: 18rem;
+  width: 23rem;
   height: 55%;
   top: 20px;
-  left: -5px;
   background: pink;
   z-index: -1;
-  color: black;
 }
 @media all and (max-width: 480px) {
   .heading {
-    font-size: 30px;
+    font-size: 20px;
   }
   .heading::before {
     width: 15rem;
+    top: 10px;
   }
 }

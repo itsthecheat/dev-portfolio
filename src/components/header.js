@@ -4,7 +4,8 @@ import {Navbar, Nav} from "react-bootstrap/"
 import { Link } from "gatsby"
 import styles from "./Header.module.css"
 import { HamburgerElastic } from "react-animated-burgers"
-import { AiOutlineLinkedin, AiFillGithub, AiOutlineInstagram } from "react-icons/ai"
+import logo from "../static/icons/logo_slash_sm.png"
+import SEO from "../components/SEO"
 
 class Header extends React.Component {
   state = {
@@ -19,24 +20,21 @@ toggleButton = () => {
 
   render() {
     return (
-      <div>
 
+      <div>
+        <SEO />
         <Navbar collapseOnSelect expand="lg" variant="">
-          <Navbar.Brand id={styles.brand} as={Link} to="/">Leslie Behum</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/"><img alt="Leslie Behum" id={styles.brand} src={logo}/></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav">
               <HamburgerElastic
                  buttonWidth={30}
                  isActive={this.state.isActive} toggleButton={this.toggleButton} buttonColor="" barColor="black" />
             </Navbar.Toggle>
               <Navbar.Collapse id="responsive-navbar-nav">
-                  <Nav className="ml-auto">
+                  <Nav className="mr-auto">
+                    <Nav.Link onSelect={this.toggleButton} eventKey="2" as={Link} to="/about/">Who I Am</Nav.Link>
                     <Nav.Link onSelect={this.toggleButton} eventKey="2" as={Link} to="/portfolio/">What I've Made</Nav.Link>
                     <Nav.Link onSelect={this.toggleButton}  eventKey="3" as={Link} to="/contact/">Say Hello</Nav.Link>
-                    <div id={styles.iconRow}>
-                    <a href="https://www.linkedin.com/in/leslielaurenbehum"><AiOutlineLinkedin id={styles.icon}/></a>
-                      <a href="https://www.github.com/itsthecheat"><AiFillGithub id={styles.icon}/></a>
-                      <a href="https://www.instagram.com/leslielaurenb"><AiOutlineInstagram id={styles.icon}/></a>
-                    </div>
                   </Nav>
               </Navbar.Collapse>
         </Navbar>

@@ -1,0 +1,26 @@
+form {
+  max-width: 500px;
+  font-family: "DM Serif Display", sans-serif;
+
+}
+.formCustom {
+  border: 2px solid black;
+  border-radius: 0;
+  background: none;
+}
+.formCustom:focus {
+  background: none;
+  border-color: lightpink;
+  box-shadow: none;
+}
+.btnCustom {
+  background: white;
+  color: black;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.btnCustom:hover {
+  background: black;
+  color: white;
+  border-color: rgba(0,123,255,.1);
+}
