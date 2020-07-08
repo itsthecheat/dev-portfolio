@@ -4,22 +4,14 @@
   z-index: 1;
   font-size: 20px;
 }
-#brand  {
-  display: inline-block;
-  position: relative;
-}
-button {
-  z-index: 100;
-}
-@media all and (max-width: 480px) {
-#brand{
-    font-size: 30px;
-  }
+.logo {
+  width: 120px;
 }
 :global .nav-link {
   margin-right: 10px;
-  display: inline-block;
+  display: flex !important;
   position: relative;
+  justify-content: center;
 }
 :global .nav-link:hover::after {
   content: "";
@@ -41,6 +33,14 @@ button {
   z-index: -1;
   background-color: transparent;
   transition: background-color 0.3s;
+}
+@media all and (max-width: 480px) {
+  .logo {
+    width: 60px;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
 }
 /* #brand::after {
   content: "";

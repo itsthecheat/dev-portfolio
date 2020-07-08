@@ -8,7 +8,7 @@ export default () => (
 
 <Container>
     <Row>
-      <Col lg={8}>
+      <Col lg={8} md={8} sm={12}>
 <Form />
       </Col>
     </Row>
