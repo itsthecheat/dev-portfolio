@@ -1,13 +1,11 @@
-:global nav {
+.logo {
+  width: 100px;
+}
+:global .nav-link {
   font-family: "DM Serif Display";
   color: black;
   z-index: 1;
   font-size: 20px;
-}
-.logo {
-  width: 120px;
-}
-:global .nav-link {
   margin-right: 10px;
   display: flex !important;
   position: relative;
@@ -36,31 +34,13 @@
 }
 @media all and (max-width: 480px) {
   .logo {
-    width: 60px;
+    width: 50px;
   }
-  .nav-link {
-    font-size: 18px;
+  :global .nav-link {
+    padding: .15rem !important;
+    font-size: 15px;
+  }
+  :global .navbar {
+    padding: .15rem !important;
   }
 }
-/* #brand::after {
-  content: "";
-  position: absolute;
-  width: 17rem;
-  height: 45%;
-  top: 30px;
-  left: -5px;
-  z-index: -1;
-  color: black;
-  background-color: transparent;
-  transition: background-color 0.3s;
-}
-#brand:hover::after {
-  content: "";
-  position: absolute;
-  width: 17rem;
-  height: 45%;
-  top: 30px;
-  left: -5px;
-  background-color: pink;
-  z-index: -1;
-} */

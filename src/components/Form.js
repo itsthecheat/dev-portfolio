@@ -1,12 +1,12 @@
 import React from "react";
 
-import { Container, Row, Col, Form, Button } from "react-bootstrap"
+import { Form, Button } from "react-bootstrap"
 import styles from "./Form.module.css"
 
 
 export default () => (
 
-  <Form action="https://getform.io/f/0fa9220a-1ce6-4188-a95a-44892775f5fc" method="POST">
+  <Form action="https://formspree.io/xrgydype" method="POST">
     <Form.Group controlId="formBasicEmail">
       <Form.Control className={styles.formCustom} type="text" name="name" placeholder="Name" />
     </Form.Group>
