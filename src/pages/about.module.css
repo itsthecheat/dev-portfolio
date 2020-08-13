@@ -1,0 +1,8 @@
+.bio a {
+  font-family: "DM Serif Display";
+  transition: color 0.3s;
+}
+.bio a:hover {
+  color: pink;
+  text-decoration: none;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby"
 import Section from "../components/Section"
+import styles from "./about.module.css"
 
 export default ({data}) => {
   console.log(data.allMarkdownRemark)
@@ -8,7 +9,7 @@ export default ({data}) => {
 
     return (
       <Section >
-        <div dangerouslySetInnerHTML={{__html: content.html}} ></div>
+        <div className={styles.bio} dangerouslySetInnerHTML={{__html: content.html}} ></div>
       </Section>
     )
 }

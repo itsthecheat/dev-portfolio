@@ -1,7 +1,7 @@
 .logo {
   width: 100px;
 }
-:global .nav-link {
+:global nav.navbar a.nav-link {
   font-family: "DM Serif Display";
   color: black;
   z-index: 1;
@@ -11,7 +11,7 @@
   position: relative;
   justify-content: center;
 }
-:global .nav-link:hover::after {
+:global nav.navbar a.nav-link:hover::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -21,7 +21,7 @@
   background-color: pink;
   z-index: -1;
 }
-:global .nav-link::after {
+:global nav.navbar a.nav-link::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -36,11 +36,11 @@
   .logo {
     width: 50px;
   }
-  :global .nav-link {
+  :global nav.navbar a.nav-link {
     padding: .15rem !important;
     font-size: 15px;
   }
-  :global .navbar {
+  :global nav.navbar {
     padding: .15rem !important;
   }
 }
