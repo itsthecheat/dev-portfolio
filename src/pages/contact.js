@@ -1,17 +1,20 @@
 import React from "react";
 
 import { Container, Row, Col } from "react-bootstrap"
-import Form from "../components/Form"
+import FormCustom from "../components/Form"
 
 
-export default () => (
+const Contact = () => {
+  return (
 
 <Container>
     <Row>
       <Col lg={8} md={8} sm={12}>
         <h1>Drop Me a Line.</h1>
-<Form />
+<FormCustom />
       </Col>
     </Row>
 </Container>
-)
+)}
+
+export default Contact

@@ -43,4 +43,7 @@
   :global nav.navbar {
     padding: .15rem !important;
   }
+  :global nav.navbar a.nav-link:hover::after {
+    top: 12px;
+  }
 }

@@ -1,10 +1,10 @@
 import React from "react";
 
 import { Form, Button } from "react-bootstrap"
-import styles from "./Form.module.css"
+import * as styles from "./Form.module.css"
 
 
-export default () => (
+const FormCustom = () => (
 
   <Form action="https://formspree.io/xrgydype" method="POST">
     <Form.Group controlId="formBasicEmail">
@@ -23,3 +23,5 @@ export default () => (
   </Form>
 
 )
+
+export default FormCustom

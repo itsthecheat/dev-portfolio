@@ -1,13 +1,11 @@
 import React from "react"
-
-import layoutStyles from "./layout.module.css"
+import * as layoutStyles from "./Layout.module.css"
 import Header from "../components/Header"
 import Container from "react-bootstrap/Container"
-import "typeface-pontano-sans"
-import "typeface-dm-serif-display"
 
 
-export default ({ children }) => (
+const Layout = ({ children }) => {
+  return (
   <Container fluid>
     <div className={`${layoutStyles.sun} ${layoutStyles.bounceInTop}`}></div>
     <Header />
@@ -18,5 +16,7 @@ export default ({ children }) => (
         </div>
         </div>
   </Container>
+  )
+}
 
-)
+export default Layout

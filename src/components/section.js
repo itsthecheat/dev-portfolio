@@ -1,12 +1,15 @@
 import React from "react"
+import * as styles from "./Section.module.css"
 
 import {Row, Col, Container} from "react-bootstrap"
 
-export default ({children}) => (
+const Section = ({ children }) => {
+  
+  return (
   <Container>
     <Row>
 
-      <Col lg={8} className="text-paragraph">
+      <Col lg={8} className={styles.textParagraph}>
 
         {children}
         
@@ -14,6 +17,7 @@ export default ({children}) => (
 
     </Row>
   </Container>
+  )
+}
 
-
-)
+export default Section

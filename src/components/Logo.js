@@ -1,23 +1,18 @@
 import React from "react"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby"
 
 
 const Logo = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(name: { eq: "logo_slash" }, extension: { eq: "png" }) {
-        childImageSharp {
-          fluid(pngQuality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
+  const data = useStaticQuery(graphql`{
+  file(name: {eq: "logo_slash"}, extension: {eq: "png"}) {
+    childImageSharp {
+      gatsbyImageData(layout: FULL_WIDTH)
     }
-  `)
-  return (
-      <Img fluid={data.file.childImageSharp.fluid} alt="logo" />
-  )
+  }
+}
+`)
+  return <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} alt="logo" />;
 }
 
 export default Logo

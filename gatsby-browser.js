@@ -1,2 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
+import "@popperjs/core/dist/umd/popper.min.js"
 import "./src/static/styles/global.css"
+import "@fontsource/pontano-sans"
+import "@fontsource/dm-serif-display"

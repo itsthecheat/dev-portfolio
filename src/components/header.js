@@ -1,14 +1,13 @@
 import React from "react"
 
-import {Navbar, Nav} from "react-bootstrap/"
+import {Navbar, Nav} from "react-bootstrap"
 import { Link } from "gatsby"
-import styles from "./Header.module.css"
+import * as styles from "./Header.module.css"
 import Logo from "./Logo"
 import SEO from "../components/SEO"
 
-class Header extends React.Component {
+const Header = () => {
 
-  render() {
     return (
       <div>
         <SEO />
@@ -21,8 +20,8 @@ class Header extends React.Component {
             <Nav.Link as={Link} to="/contact/">Say Hello</Nav.Link>
         </Navbar>
       </div>
-    )
+    ) 
   }
-}
+
 
 export default Header

@@ -11,10 +11,7 @@ a:hover {
   justify-content: center;
   flex: auto;
 }
-.text-paragraph {
-  z-index: 200;
-  font-family: "Pontano Sans", sans-serif;
-}
+
 
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480

@@ -1,9 +1,10 @@
-import React from "react";
-
+import React from "react"
 import {Container, Row, Col} from "react-bootstrap"
 import Gallery from "../components/Gallery"
 
-export default () => (
+
+const Portfolio = () => {
+  return (
 
   <Container>
     <Row>
@@ -13,7 +14,7 @@ export default () => (
     </Row>
   </Container>
 
+  )
+}
 
-
-
-)
+export default Portfolio

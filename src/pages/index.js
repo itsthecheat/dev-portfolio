@@ -2,10 +2,11 @@ import React from "react";
 
 import Section from "../components/Section"
 import Footer from "../components/Footer"
-import styles from "./index.module.css"
+import * as styles from "./index.module.css"
 import { AiOutlineLinkedin, AiFillGithub, AiOutlineInstagram } from "react-icons/ai"
 
-export default () => (
+const Index = () => {
+  return (
 <div>
 <Section>
   <h1>Leslie Behum</h1>
@@ -21,4 +22,7 @@ export default () => (
 <Footer />
 </div>
 
-)
+  )
+}
+
+export default Index

@@ -1,15 +1,10 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
 
 module.exports = {
   plugins: [
    {
      resolve: `gatsby-plugin-layout`,
      options: {
-       component: require.resolve(`./src/components/layout`),
+       component: require.resolve(`./src/components/Layout`),
      },
    },
    {
@@ -30,7 +25,8 @@ module.exports = {
       crossOrigin: `use-credentials`,
   },
 },
-   `gatsby-plugin-styled-components`,
+  `gatsby-plugin-preload-fonts`,
+   `gatsby-plugin-image`,
    `gatsby-transformer-sharp`,
    `gatsby-plugin-sharp`,
    `gatsby-transformer-remark`,
