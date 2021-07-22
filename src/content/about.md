@@ -1,5 +1,4 @@
-#Hi!
-
+# Hi!
 
 Growing up in the early days of the internet, I have always been interested in web development. I taught myself HTML and created my first website using Notepad around the age of 12 as a way to express myself and connect with like-minded peers I never would have met otherwise. Ultimately, my interest in the arts brought me to Pratt Institute where I studied illustration and photography; but I never lost my interest in technology. Years later as I began to work more in commercial and event photography, I found that it didn't satisfy me in the ways that I imagined, and began to return to my interest in tech.
 

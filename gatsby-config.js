@@ -25,7 +25,6 @@ module.exports = {
       crossOrigin: `use-credentials`,
   },
     },
-  `gatsby-plugin-postcss`,
   `gatsby-plugin-preload-fonts`,
    `gatsby-plugin-image`,
    `gatsby-transformer-sharp`,
