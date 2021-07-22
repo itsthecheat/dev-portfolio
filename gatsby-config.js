@@ -24,7 +24,8 @@ module.exports = {
       // Any invalid keyword or empty string defaults to `anonymous`
       crossOrigin: `use-credentials`,
   },
-},
+    },
+  `gatsby-plugin-postcss`,
   `gatsby-plugin-preload-fonts`,
    `gatsby-plugin-image`,
    `gatsby-transformer-sharp`,
