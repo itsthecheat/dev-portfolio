@@ -1,7 +1,7 @@
 import React from "react"
 
 import * as styles from "./Footer.module.css"
-import icon from "../static/icons/Gatsby_Monogram_Black.svg"
+import icon from "../assets/icons/Gatsby_Monogram_Black.svg"
 import { FiCoffee } from "react-icons/fi"
 import { MdCopyright } from "react-icons/md"
 
