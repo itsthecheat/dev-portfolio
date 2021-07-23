@@ -1,9 +1,8 @@
 import React from "react"
-
 import * as styles from "./portfolio-pages.module.css"
 import { graphql } from "gatsby"
 import Section from "../components/Section"
-import { GatsbyImage } from "gatsby-plugin-image";
+import { GatsbyImage } from "gatsby-plugin-image"
 import { FaGithub,FaLink } from "react-icons/fa"
 
 const PortfolioPages = ({data}) => {
