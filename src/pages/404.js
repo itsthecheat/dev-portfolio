@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap"
 
 
-export default () => {
+const Error = () => {
   return (
 <Container>
     <Row>
@@ -14,3 +14,4 @@ export default () => {
 </Container>
 )}
 
+export default Error

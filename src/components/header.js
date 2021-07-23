@@ -4,13 +4,13 @@ import {Navbar, Nav} from "react-bootstrap"
 import { Link } from "gatsby"
 import * as styles from "./Header.module.css"
 import Logo from "./Logo"
-import SEO from "../components/SEO"
+import Seo from "../components/Seo"
 
 const Header = () => {
 
     return (
       <div>
-        <SEO />
+        <Seo />
         <Navbar>
           <Navbar.Brand className={styles.logo} as={Link} to="/">
             <Logo/>
