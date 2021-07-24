@@ -1,7 +1,7 @@
-import React from "react";
-import { graphql } from "gatsby"
-import Section from "../components/Section"
-import * as styles from "./about.module.css"
+import React from 'react'
+import { graphql } from 'gatsby'
+import Section from '../components/Section'
+import * as styles from './about.module.css'
 
 const About = ({data}) => {
   const content = data.allMarkdownRemark.edges[0].node

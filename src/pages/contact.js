@@ -1,7 +1,6 @@
-import React from "react";
-
-import { Container, Row, Col } from "react-bootstrap"
-import FormCustom from "../components/Form"
+import React from 'react-dom'
+import { Container, Row, Col } from 'react-bootstrap'
+import FormCustom from '../components/Form'
 
 
 const Contact = () => {
