@@ -4,24 +4,21 @@ import Section from '../components/Section'
 
 
 const BlogPostPages = ({data}) => {
-    console.log (data)
+    const post = data.markdownRemark
     
     return (
         <Section>
-
+            <h1>{post.frontmatter.title}</h1>
+            <p>hello blog</p>
         </Section>
     )
 }
 export const query = graphql`
-  {
-    allMarkdownRemark {
-      edges {
-        node {
-          html
-          frontmatter {
-            title
-          }
-        }
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
       }
     }
   }
