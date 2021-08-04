@@ -1,14 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Section from '../components/Section'
-import * as styles from './about.module.css'
+import * as styles from './pages.module.css'
 
-const About = ({data}) => {
+const Pages = ({data}) => {
   const content = data.allMarkdownRemark.edges[0].node
 
     return (
-      <Section >
-        <div className={styles.bio} dangerouslySetInnerHTML={{__html: content.html}} ></div>
+      
+      <Section>
+        <div className={styles.bio} dangerouslySetInnerHTML={{ __html: content.html }} ></div>
       </Section>
     )
 }
@@ -24,4 +25,4 @@ export const query = graphql`
     }
   }
 `
-export default About
+export default Pages

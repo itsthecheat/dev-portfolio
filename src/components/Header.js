@@ -6,7 +6,6 @@ import Logo from "./Logo"
 import Seo from "../components/Seo"
 
 const Header = () => {
-
     return (
       <div>
         <Seo />
