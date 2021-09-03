@@ -7,7 +7,7 @@
   description: >
     Ecommerce store created with React and Redux using the Fake Store API for product info. Currently user can add and remove items from the cart with persistant state. Server to be connected to save user and cart info.
   links:
-    web: https://reallycool.lesliethe.dev
+    web: https://really-cool-store.netlify.app
     github: https://github.com/itsthecheat/ecommerce
   techstack:
     - ReactJS
@@ -23,7 +23,7 @@
   description: >
     Lorem Ipsum generator. User enters the number of paragraphs they would like, and quotes from the Netflix show 'Ozark' are generated. User can copy to clipboard. Bootstrapped with create-react-app.
   links:
-    web: https://ozark-ipsum.lesliethe.dev
+    web: https://ozark-ipsum.netlify.app
     github: https://github.com/itsthecheat/ozark_ipsum
   techstack:
     - ReactJS
