@@ -5,7 +5,7 @@ import {formCustom, btnCustom} from "./Form.module.css"
 
 const FormCustom = () => (
 
-  <Form action="https://formspree.io/xrgydype" method="POST">
+  <Form name="contact" method="POST" data-netlify="true">
     <Form.Group controlId="formBasicEmail">
       <Form.Control className={formCustom} type="text" name="name" placeholder="Name" />
     </Form.Group>
