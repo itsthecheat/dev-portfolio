@@ -5,9 +5,9 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const Logo = () => {
   const data = useStaticQuery(graphql`{
-  file(name: {eq: "logo_slash"}, extension: {eq: "png"}) {
+  file(name: {eq: "logo_slash_sm"}, extension: {eq: "png"}) {
     childImageSharp {
-      gatsbyImageData(layout: FULL_WIDTH)
+      gatsbyImageData(placeholder: BLURRED)
     }
   }
 }

@@ -1,5 +1,9 @@
 html, body {
   color: black;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 a {
   color: black;
@@ -8,8 +12,8 @@ a:hover {
   color: black;
 }
 .row {
+
   justify-content: center;
-  flex: auto;
 }
 
 

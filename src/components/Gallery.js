@@ -1,5 +1,4 @@
 import React from "react"
-
 import Masonry from "react-masonry-component"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image";
@@ -25,9 +24,9 @@ const Gallery = () => {
   }
 }
 `)
-
   return (
-    <Masonry>
+  
+      <Masonry>
         {data.allProjectsYaml.edges.map( ({node: image}) => (
           <Col lg={6} md={4} sm={12} key={image.id} className={styles.imageItem}>
             <h3 className={styles.projectHeading}>{image.title}</h3>
@@ -40,6 +39,7 @@ const Gallery = () => {
           </Col>
           ))}
     </Masonry>
+    
   );
 }
 

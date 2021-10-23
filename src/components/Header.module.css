@@ -1,5 +1,4 @@
 .logo {
-  width: 100px;
   z-index: 2000;
 }
 :global nav.navbar a.nav-link {

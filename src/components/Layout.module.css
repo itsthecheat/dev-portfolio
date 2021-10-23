@@ -1,6 +1,5 @@
 .container {
   margin: 3rem auto;
-  padding-top: 30px;
 }
 .sun {
   -webkit-animation: sunFade 2s infinite;

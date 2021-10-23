@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from "react"
 import { Form, Button } from "react-bootstrap"
 import {formCustom, btnCustom} from "./Form.module.css"
 

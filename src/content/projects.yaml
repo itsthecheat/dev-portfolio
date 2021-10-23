@@ -35,6 +35,8 @@
   thumbnail: '../images/sary.png'
   img:
     - '../images/sary.png'
+    - '../images/sary-1.png'
+    - '../images/sary-2.png'
   description: >
     NYC area therapy group website designed and developed by me. Built on Jekyll using elements of Material Design.
   links:
@@ -45,7 +47,7 @@
     - CSS
     - JavaScript
     - Jekyll
-    - Material Design
+    - Material UI
 
 - title: Mikella Millen
   slug: '/mikella-millen/'
@@ -55,15 +57,15 @@
     - '../images/mikella-2.png'
     - '../images/mikella-3.png'
   description: >
-    Buisness website for Mikella Millen. Designed and developed by me.
+    Buisness website for Mikella Millen. Designed and developed by me using Gatsby and Prismic as headless CMS.
   links:
     web: http://www.mikellamillen.com
     github: https://github.com/itsthecheat/mikella
   techstack:
-    - HTML
-    - CSS
-    - JavaScript
-    - gulp.js
+    - Gatsby
+    - React
+    - GraphQL
+    - Prismic CMS
 
   
 #    - Gatsby.js
